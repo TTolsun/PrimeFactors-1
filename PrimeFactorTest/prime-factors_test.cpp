@@ -38,3 +38,9 @@ TEST_F(PrimeFactorTexture, Of6)
 	expected = { 2, 3 };
 	EXPECT_EQ(primeFactor.of(6), expected);
 }
+
+TEST_F(PrimeFactorTexture, Of9)
+{
+	expected = { 3, 3 };
+	EXPECT_EQ(primeFactor.of(9), expected);
+}
