@@ -1,5 +1,13 @@
+#include <vector>
+
+using namespace std;
+
 class PrimeFactor
 {
-	PrimeFactor() = default;
-	~PrimeFactor() = default;
+public:
+	vector<int> of(int i)
+	{
+		vector<int> result{};
+		return result;
+	}
 };
